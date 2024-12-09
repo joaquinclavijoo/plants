@@ -1,0 +1,46 @@
+
+.nav-container {
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: #1b1b1b;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar-logo {
+    justify-self: start;
+    margin-left: 20px;
+    color: #fff;
+    margin-top: 0.2vh;
+    cursor: pointer;
+    
+}
+
+.navbar-cart{
+    font-size: 30px;
+    margin-right: 20px;
+    margin-top: 1vh;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cart-count {
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 2px 6px;
+    position: absolute;
+  
+}
